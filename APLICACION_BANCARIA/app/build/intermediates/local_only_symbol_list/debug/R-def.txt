@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable dot
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonPanel
+id carousel
+id container
+id custom_indicator
+id image_view
+id mainActivity
+id nav_principal
+id topAppBar
+id txtMoney
+id txtTarjet
+id txtTipoCuenta
+id txtWelcome
+layout activity_main
+layout item_image_size_layout
+mipmap gestionar_clientes
+mipmap gestionar_tarjetas
+mipmap gestionar_usuarios
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation nav_principal
+string app_name
+string hello_blank_fragment
+string pantalla_principal
+style Base.Theme.AplicacionBancaria
+style Theme.AplicacionBancaria
+xml backup_rules
+xml data_extraction_rules
