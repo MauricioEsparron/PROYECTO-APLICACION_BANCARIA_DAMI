@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/ColorSecondary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginBottom="8dp"
+    app:strokeWidth="0dp"
+    app:cardElevation="3dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/labelNombre"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="CLIENTE:"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:layout_marginStart="4dp"
+            android:textSize="15sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/labelNombre"
+             />
+
+        <TextView
+            android:id="@+id/txtApellido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido"
+            android:textSize="15sp"
+            android:layout_marginStart="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txtNombre"/>
+
+        <TextView
+            android:id="@+id/labelDni"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="DNI:"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/labelNombre"/>
+
+        <TextView
+            android:id="@+id/txtDni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dni"
+            android:layout_marginStart="4dp"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@id/labelDni"
+            app:layout_constraintTop_toBottomOf="@+id/txtNombre"/>
+
+        <TextView
+            android:id="@+id/labelTelefono"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="TELEFONO:"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/labelDni"/>
+
+        <TextView
+            android:id="@+id/txtTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="telfono"
+            android:layout_marginStart="4dp"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@id/labelTelefono"
+            app:layout_constraintTop_toBottomOf="@+id/txtDni"/>
+
+        <TextView
+            android:id="@+id/labelDireccion"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="DIRECCIÓN:"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/labelTelefono"/>
+
+        <TextView
+            android:id="@+id/txtDireccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="direccion"
+            android:layout_marginStart="4dp"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@id/labelDireccion"
+            app:layout_constraintTop_toBottomOf="@+id/txtTelefono"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

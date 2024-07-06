@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "995907720340",
+    "project_id": "proyectobank-e8757",
+    "storage_bucket": "proyectobank-e8757.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995907720340:android:a1d153d25ebad8f1995081",
+        "android_client_info": {
+          "package_name": "com.example.aplicacionbancaria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxpBQFRkQXqLBMbV6wkiUAvCfM_5HMODI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

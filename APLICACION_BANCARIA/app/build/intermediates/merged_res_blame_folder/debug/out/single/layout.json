@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.aplicacionbancaria.app-mergeDebugResources-59:/layout/fragment_home.xml",
+        "source": "com.example.aplicacionbancaria.app-main-62:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.aplicacionbancaria.app-mergeDebugResources-59:/layout/item_image_size_layout.xml",
+        "source": "com.example.aplicacionbancaria.app-main-62:/layout/item_image_size_layout.xml"
+    },
+    {
+        "merged": "com.example.aplicacionbancaria.app-mergeDebugResources-59:/layout/fragment_cliente.xml",
+        "source": "com.example.aplicacionbancaria.app-main-62:/layout/fragment_cliente.xml"
+    },
+    {
+        "merged": "com.example.aplicacionbancaria.app-mergeDebugResources-59:/layout/activity_main.xml",
+        "source": "com.example.aplicacionbancaria.app-main-62:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.aplicacionbancaria.app-mergeDebugResources-59:/layout/item_clientes.xml",
+        "source": "com.example.aplicacionbancaria.app-main-62:/layout/item_clientes.xml"
+    },
+    {
+        "merged": "com.example.aplicacionbancaria.app-mergeDebugResources-59:/layout/fragment_agregar_cliente.xml",
+        "source": "com.example.aplicacionbancaria.app-main-62:/layout/fragment_agregar_cliente.xml"
+    },
+    {
+        "merged": "com.example.aplicacionbancaria.app-mergeDebugResources-59:/layout/item_usuarios.xml",
+        "source": "com.example.aplicacionbancaria.app-main-62:/layout/item_usuarios.xml"
+    },
+    {
+        "merged": "com.example.aplicacionbancaria.app-mergeDebugResources-59:/layout/fragment_usuario.xml",
+        "source": "com.example.aplicacionbancaria.app-main-62:/layout/fragment_usuario.xml"
+    },
+    {
+        "merged": "com.example.aplicacionbancaria.app-mergeDebugResources-59:/layout/progress_layout.xml",
+        "source": "com.example.aplicacionbancaria.app-main-62:/layout/progress_layout.xml"
+    }
+]

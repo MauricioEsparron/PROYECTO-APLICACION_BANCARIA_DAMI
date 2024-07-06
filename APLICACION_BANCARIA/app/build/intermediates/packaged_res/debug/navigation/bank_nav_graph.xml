@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bank_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.aplicacionbancaria.ui.main.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_clienteFragment"
+            app:destination="@id/clienteFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_usuarioFragment"
+            app:destination="@id/usuarioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clienteFragment"
+        android:name="com.example.aplicacionbancaria.ui.main.ClienteFragment"
+        android:label="fragment_cliente"
+        tools:layout="@layout/fragment_cliente" >
+        <action
+            android:id="@+id/action_clienteFragment_to_agregarClienteFragment"
+            app:destination="@id/agregarClienteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usuarioFragment"
+        android:name="com.example.aplicacionbancaria.ui.main.UsuarioFragment"
+        android:label="fragment_usuario"
+        tools:layout="@layout/fragment_usuario" />
+    <fragment
+        android:id="@+id/agregarClienteFragment"
+        android:name="com.example.aplicacionbancaria.ui.main.agregarClienteFragment"
+        android:label="fragment_agregar_cliente"
+        tools:layout="@layout/fragment_agregar_cliente" />
+</navigation>
